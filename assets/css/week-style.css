@@ -1,0 +1,53 @@
+
+.link:hover {
+  text-decoration: underline;
+  color: #318fb5;
+}
+.news-section {
+  margin-top: 30px;
+  display: block;
+}
+
+.news {
+  margin-top: 18px;
+  border-radius: 1px;
+  border-color: #ffffff;
+}
+.news-title {
+  font-size: 21px;
+  font-weight: 598;
+  color: #363636;
+}
+.news-content {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #797a7e;
+}
+.news-link {
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+.news {
+  margin-top: 18px;
+  border-radius: 1px;
+  border-color: #ffffff;
+}
+.news-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #363636;
+}
+
+.icon-bar {
+  position: relative;
+  margin-left: 10px;
+}
+.news .link:after {
+  content: " \279C";
+  font-size: 15px;
+  border-radius: 5px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 3px;
+}

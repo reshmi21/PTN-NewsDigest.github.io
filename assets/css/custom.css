@@ -1,0 +1,358 @@
+.white {
+  background-color: #fff;
+}
+.hero-slider .slide-content h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.hero-slider .slide-content p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.single-service-2 .inner {
+  height: 100% !important;
+  padding: 15px 15px !important;
+}
+.news {
+  margin-top: 50px;
+}
+.news .icon {
+  float: none;
+  display: block;
+  font-size: 40px;
+}
+.news .row {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #b9bcbf;
+}
+.news .row:last-child {
+  border: none;
+}
+.brand-area .inner h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.brand-area .inner p {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.event {
+  margin-top: 90px;
+}
+
+.event .inner {
+  padding-top: 90px;
+}
+
+.title h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.content p {
+  font-size: 15px;
+  font-weight: 200;
+}
+.single-service-2 .inner {
+  height: 100%;
+  padding: 85px 30px;
+}
+.brand .owl-item {
+  float: none;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+}
+
+.slider .inner .client-img img {
+  width: 100%;
+  max-width: 350px;
+}
+.brand .single-slide {
+  /* padding: 35px; */
+  border-radius: 5px;
+  font-weight: 300;
+  color: #7d91aa;
+}
+.testimonial-slider .single-slide img {
+  margin: 0 auto;
+}
+.page-advert h2 {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.page-advert .button {
+  border: 1px solid #fff !important;
+  font-weight: 500;
+}
+.page-advert .button:hover {
+  color: #4698ff;
+}
+.brand .single-slide {
+  border: none;
+  padding: 0;
+}
+.brand .owl-carousel .owl-item img {
+  max-width: 100%;
+  width: 120px;
+}
+.single-service.bordered .inner {
+  height: 100%;
+}
+.testimonial-slider .single-slide {
+  border: none;
+}
+.text-center p {
+  color: #000;
+}
+.event-logo .event-logo__img {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.event-logo .event-logo__img .inner {
+  width: 16.66%;
+  padding-bottom: 30px;
+}
+.event-logo .event-logo__img .inner img {
+  margin: 0 auto;
+  width: 120px;
+  display: block;
+}
+.newsletter{
+  margin-top: 10px;
+}
+/* about page */
+.about-cover {
+  min-height: 250px;
+}
+.slider .single-slide {
+  border: none;
+  padding: 0;
+}
+.slider .owl-carousel .owl-item img {
+  max-width: 100%;
+  width: 350px;
+}
+.tab-content .row {
+  padding: 40px;
+  border: 1px solid #cad4de;
+  border-radius: 7px;
+}
+.service-area .custom-icon .icon {
+  display: inline-block;
+  font-size: 26px;
+  vertical-align: middle;
+}
+.service-area .custom-icon h4 {
+  padding-left: 20px;
+  display: inline-block;
+}
+.single-faq h2{
+  text-align: left;
+}
+/* ............................code of conduct page........ */
+
+.behavior .section-title h2 {
+  margin-bottom: 30px;
+}
+.behavior .section-title p {
+  text-align: left;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(226, 223, 223);
+}
+/* ...................Petroleum Digest PAGE ........ */
+
+.hero-hedding {
+  margin-bottom: 80px;
+}
+.hero-hedding h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.hero-hedding p {
+  font-size: 16px;
+}
+.hero-box h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.hero-box p {
+  font-weight: 200;
+  opacity: 0.8;
+}
+/* .........covid119 PAGE ........ */
+
+.covid19 p{
+  text-align: left;
+  margin-bottom: 16px;
+}
+.covid19 h4{
+  text-align: left;
+}
+.covid19 .section-title h2{
+  text-align: left;
+  margin-bottom: 16px;
+}
+.covid19 ul li{
+text-align: left;
+margin-bottom: 16px;
+margin-left: 50px;
+}
+/* .........policies PAGE ........ */
+
+.policies p{
+  text-align: left;
+  margin-bottom: 16px;
+}
+.policies h4{
+  text-align: left;
+}
+.policies .section-title h2{
+  margin-bottom: 16px;
+  text-align: left;
+}
+.policies ul li{
+text-align: left;
+margin-bottom: 16px;
+margin-left: 50px;
+}
+@media screen and (max-width: 1220px) {
+  .col-md-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hero-slider .slide-content h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .hero-slider .slide-content p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .logo-column a.logo img {
+    max-width: 255px;
+  }
+
+  .sp {
+    padding-top: 50px;
+  }
+  .event-logo .event-logo__img .inner {
+    width: 25%;
+    margin-bottom: 10px;
+  }
+  .event {
+    margin-top: 0px;
+  }
+  .event .inner {
+    padding-top: 50px;
+  }
+  .single-brand {
+    margin: 15px 0;
+  }
+  .hero-slider .single-slide::after {
+    opacity: 0;
+  }
+  .single-portfolio .inner .portfolio-img {
+    text-align: center;
+  }
+  .single-portfolio .inner .portfolio-img img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-slider .slide-content h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .sp {
+    padding: 20px 0 20px 0;
+  }
+  .spmt {
+    margin-top: 10px;
+  }
+  .hero-slider .slide-content p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .sp {
+    padding-top: 50px;
+  }
+  .event-logo .event-logo__img .inner {
+    width: 33.33%;
+    margin-bottom: 10px;
+  }
+  .event {
+    margin-top: 0px;
+  }
+  .event .inner {
+    padding-top: 0px;
+  }
+  .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .nav-column .right-nav span {
+    padding: 0 5px;
+  }
+  .logo-column a.logo img {
+    max-width: 200px;
+  }
+  .hero-slider .slide-content h2 {
+    font-size: 30px;
+  }
+  .hero-slider .slide-content p {
+    font-size: 15px;
+  }
+  .sp {
+    padding: 20px 0 20px 0;
+  }
+  .spmt {
+    margin-top: 10px;
+  }
+  .event-logo .event-logo__img .inner {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .testimonial-slider .single-slide {
+    padding: 10px;
+  }
+  .section-title h2 {
+    font-size: 30px;
+  }
+  .page-title h2 {
+    font-size: 30px;
+  }
+  h3,
+  h4 {
+    font-size: 18px !important;
+  }
+  .news .icon {
+    display: block;
+    text-align: center;
+  }
+  .news .content p {
+    text-align: center;
+  }
+  .news .inner {
+    text-align: center;
+  }
+  .news .inner .title h4 {
+    padding-top: 20px;
+  }
+}
