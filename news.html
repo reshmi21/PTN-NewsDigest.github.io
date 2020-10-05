@@ -251,16 +251,17 @@
 		});
 		var begin=beg_id;
 		$.getJSON('news-links.json',(data)=>{
-			let news=data.news;
+			let news=data.news.reverse();
+			//console.log(news);
 			let out="";
 			news=removeDuplicates(news);
 			begin=1+10*(begin-1);
 			console.log(begin);
-			for(i=begin-1;i<(begin+9);i++)
+			for(i=(news.length-begin);i>=((news.length-begin)-9);i--)
 			{
 			//news.forEach((item)=>{
 				let read="Read more";
-				//console.log(news[i]);
+				console.log(news[i]);
 				out+='<div class="news">'+
 					 '<a href="'+news[i].full_url+'">'+
 					 '<h3 class="news-title">'+news[i].title+'</h3></a>'+
