@@ -244,13 +244,13 @@
 		
 		var address=location.search;
 		var beg_id=address.substring(address.indexOf('?')+1);
-		$.getJSON('issues-list.json',(data)=>{
+		$.getJSON('data/issues-list.json',(data)=>{
 			let issue=data.issue;
 		document.querySelector('.issue-content').innerHTML=issue[beg_id-1].content.substring(0,issue[beg_id-1].content.lastIndexOf(','));
 		document.querySelector('.issue-head').innerHTML=issue[beg_id-1].heading+" "+"|"+" "+issue[beg_id-1].date;
 		});
 		var begin=beg_id;
-		$.getJSON('data.json',(data)=>{
+		$.getJSON('data/data.json',(data)=>{
 			let news=data.news.reverse();
 			//console.log(news.length);
 			let out="";
