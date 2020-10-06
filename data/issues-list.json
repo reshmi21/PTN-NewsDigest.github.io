@@ -1,0 +1,97 @@
+{
+    "issue":[
+		{
+			"issue_id": "1",
+			"heading": "Issue#1",
+			"content": "We're in the last week of September, a lot of developments taking place from Trump's decision to poliies of Venezuala,Have a look inside..",
+			"date": "25 September,2020"
+		},
+		{
+			"issue_id": "2",
+			"heading": "Issue#2",
+			"content": "We're in the first week of September,the drastic changes in the oil market all over the world are breaking the headlines,Have a look inside..",
+			"date": "10 September,2020"
+		},
+		{
+			"issue_id": "3",
+			"heading": "Issue#3",
+			"content": "We're in the last week of August,You can get to know about the 34th Offshore Achivement Awards with the changes in Oil and gas tech after Covid ,Have a look inside..",
+			"date": "25 August,2020"
+		},
+		{
+			"issue_id": "4",
+			"heading": "Issue#4",
+			"content": "We're in the first week of August, a few industry related news with their changed policies are trending this week,Have a look inside..",
+			"date": "10 August,2020"
+		},
+		{
+			"issue_id": "5",
+			"heading": "Issue#5",
+			"content": "We're in the last week of July,Do you know about  the use of Cloud AI and 5G in the oil and gas industry,Have a look inside..",
+			"date": "25 July,2020"
+		},
+		{
+			"issue_id": "6",
+			"heading": "Issue#6",
+			"content": "We're in the first week of July,new plans being adopted by the different organisations are trending this week,Have a look inside..",
+			"date": "10 July,2020"
+		},
+		{
+			"issue_id": "7",
+			"heading": "Issue#7",
+			"content": "We're in the last week of June,Do you know Google stopped making AI tools for oil extraction when advanced technology can transform the Oil and Gas Industry,Have a look inside..",
+			"date": "25 June,2020"
+		},
+		{
+			"issue_id": "8",
+			"heading": "Issue#8",
+			"content": "We're in the first week of June,Lets find out what the Fist Nation countries are worried about and how Trump is helping ailing oil companies,Have a look inside..",
+			"date": "10 June,2020"
+		},
+		{
+			"issue_id": "9",
+			"heading": "Issue#9",
+			"content": "We're in the last week of May,let's find the contracts that are taking place and the favour of digitalisation by India and Russia,Have a look inside..",
+			"date": "25 May,2020"
+		},
+		{
+			"issue_id": "10",
+			"heading": "Issue#10",
+			"content": "We're in the first week of May,Get to know about the oil discoveries made to the battle of oil groups for survival and the talks about Oil stabilization,Have a look inside..",
+			"date": "10 May,2020"
+		},
+		{
+			"issue_id": "11",
+			"heading": "Issue#11",
+			"content": "We're in the first week of April,news about the Oil Market Report to trio of oil and gas players to launch a new product are trending this week,Have a look inside..",
+			"date": "25 April,2020"
+			
+		},
+	
+		{
+			"issue_id": "12",
+			"heading": "Issue#12",
+			"content": "We're in the first week of April,Do you know UAE finds world's biggest gas field since 2005 and that Shell completes its sell of US refinery,Have a look inside..",
+			"date": "10 April,2020"
+		},
+		{
+			"issue_id": "13",
+			"heading": "Issue#13",
+			"content": "We're in the last week of March,Get to know more news about the use of IOT and the team up of tech and energy,Have a look inside..",
+			"date": "25 March,2020"
+		},
+		{
+			"issue_id": "14",
+			"heading": "Issue#14",
+			"content": "We're in the first week of March,news about use of IOT solutions to fall of India's petroleum price are trending this week,Have a look inside..",
+			"date": "10 March,2020"
+		},
+		{
+			"issue_id": "15",
+			"heading": "Issue#15",
+			"content": "We're in the last week of February,Do you know about the change in policy of China and the Franc sand industry's migration and the 2020 Global Energy Talent Index,Have a look inside..",
+			"date": "25 February,2020"
+		}
+		
+	]
+}

@@ -244,19 +244,19 @@
 		
 		var address=location.search;
 		var beg_id=address.substring(address.indexOf('?')+1);
-		$.getJSON('issue-list.json',(data)=>{
+		$.getJSON('issues-list.json',(data)=>{
 			let issue=data.issue;
 		document.querySelector('.issue-content').innerHTML=issue[beg_id-1].content.substring(0,issue[beg_id-1].content.lastIndexOf(','));
 		document.querySelector('.issue-head').innerHTML=issue[beg_id-1].heading+" "+"|"+" "+issue[beg_id-1].date;
 		});
 		var begin=beg_id;
-		$.getJSON('news-links.json',(data)=>{
+		$.getJSON('data.json',(data)=>{
 			let news=data.news.reverse();
-			//console.log(news);
+			//console.log(news.length);
 			let out="";
 			news=removeDuplicates(news);
 			begin=1+10*(begin-1);
-			console.log(begin);
+			//console.log(begin);
 			for(i=(news.length-begin);i>=((news.length-begin)-9);i--)
 			{
 			//news.forEach((item)=>{
